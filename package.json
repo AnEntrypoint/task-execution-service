@@ -1,0 +1,31 @@
+{
+  "name": "@sequentialos/task-execution-service",
+  "version": "1.0.0",
+  "description": "Task execution service with validation, orchestration, and state management",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./task-service": "./src/services/task-service.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnEntrypoint/sequential-task-execution-service"
+  },
+  "keywords": [
+    "sequential",
+    "task",
+    "service",
+    "execution",
+    "validation"
+  ],
+  "author": "Sequential Ecosystem <contact@sequential.dev>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@sequentialos/data-access-layer": "^1.0.0"
+  },
+  "dependencies": {}
+}
